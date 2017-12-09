@@ -1,0 +1,15 @@
+.root {
+	padding: 10px;
+	font-size: 24px;color: #f00;text-align: center;
+  	background-color: #eee;border: 3px solid #ccc;
+
+  	animation: root 2s infinite linear;
+}
+@keyframes root {
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(10px);
+	}
+}
